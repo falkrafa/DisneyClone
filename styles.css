@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+header {
+  overflow-y: hidden;
+  width: 100vw;
+  height: 4vh;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(04, 07, 14, 0.3);
+  position: fixed;
+}
+header div {
+  padding: 20px;
+  align-items: center;
+}
+header img {
+  width: 90px;
+  margin-left: 70px;
+}
+#a-2 {
+  font-size: 18.5px;
+  text-decoration: none;
+  margin-right: 10px;
+  color: white;
+  background-color: #0063e5;
+  padding: 15px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+#a-2:hover {
+  background-color: #1173e5;
+}
+header #a {
+  font-size: 18.5px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 14px 15px;
+  border-radius: 5px;
+  border: solid 1px;
+  border-color: white;
+}
+header #a:hover {
+  background-color: white;
+  color: black;
+}
+header #a:active {
+  border: none;
+  transform: scale(0.98);
+  background-color: grey;
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./images/fundo.jpeg');
+}
+.disney-logo {
+  padding-bottom: 30px;
+  width: 320px;
+}
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  width: 100vw;
+  color: white;
+  margin-left: -900px;
+}
+.menu-content h3 {
+  font-size: 26px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.menu-content a {
+  font-size: 18px;
+  text-align: center;
+  padding: 24px 75px;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 28vw;
+  color: white;
+  transition: all 200ms ease-in-out;
+  background-color: #6421ff;
+}
+.menu-content a:hover {
+  background-color: #7828ff;
+}
+.mid-content {
+  background-color: #040714;
+  width: 100vw;
+  height: 90vh;
+}
+
+.mid-content nav {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  padding-top: 13px;
+}
+.mid-content nav ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 45px;
+}
+.mid-content nav ul li {
+  list-style: none;
+}
+.mid-content nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.line {
+  height: 4px;
+  margin-top: 9px;
+  background-color: white;
+}
+.mid-images {
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mid-images img {
+  border-radius: 15px;
+  padding: 10px;
+  height: 300px;
+  width: 500px;
+}
+.seta {
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 30px;
+  background-image: url('./images/setaDown2.png');
+  background-size: contain;
+  position: relative;
+  animation-name: seta;
+  animation-duration: 900ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes seta {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 5px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+#fundo-seta {
+  overflow-y: hidden;
+  background-color: #040714;
+  align-self: flex-start;
+  margin-left: 110px;
+  margin-top: 110px;
+}
