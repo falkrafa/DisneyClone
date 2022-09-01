@@ -192,10 +192,14 @@ header #a:active {
 }
 
 .bg-3 ul {
-  width: 1200px;
+  width: 1350px;
   height: 400px;
   display: flex;
   justify-content: space-between;
+  background-color: red;
+}
+.div a {
+  color: white;
 }
 .bg-3 h1 {
   font-size: 40px;
@@ -206,15 +210,32 @@ header #a:active {
   width: 300px;
   flex-direction: column;
   justify-content: center;
+  background-color: blue;
   align-items: center;
   text-align: center;
+}
+.bg-3 .div img {
+  width: 330px;
+  padding-bottom: 30px;
+}
+.bg-3 .div h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.bg-3 .div p {
+  font-size: 19px;
+  color: #c0c0c0;
+  line-height: 26px;
 }
 .bg-3 .mid-div {
   background-image: url(https://cnbl-cdn.bamgrid.com/assets/56773c66e02b16eb7603c803037f43e8572ea3a61574abd664f409a385a0b333/original);
   background-position: center;
-  background-size: 400px;
-  width: 390px;
+  background-size: 380px;
+  width: 380px;
   background-repeat: no-repeat;
+  background-color: orange;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
