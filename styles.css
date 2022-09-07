@@ -5,7 +5,6 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
 header {
   overflow-y: hidden;
   width: 100vw;
@@ -24,8 +23,8 @@ header div {
   align-items: center;
 }
 header img {
-  width: 90px;
-  margin-left: 70px;
+  width: 80px;
+  margin-left: 90px;
 }
 #a-2 {
   font-size: 18.5px;
@@ -85,12 +84,13 @@ header #a:active {
   margin-left: -900px;
 }
 .menu-content h3 {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 600;
   padding-bottom: 30px;
 }
 .menu-content a {
   font-size: 18px;
+  font-weight: 400;
   text-align: center;
   padding: 24px 75px;
   text-decoration: none;
@@ -106,7 +106,7 @@ header #a:active {
 .mid-content {
   background-color: #040714;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 
 .mid-content nav {
@@ -128,8 +128,8 @@ header #a:active {
 .mid-content nav a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 19px;
+  font-weight: 500;
 }
 .line {
   height: 4px;
@@ -142,6 +142,7 @@ header #a:active {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .mid-images img {
   border-radius: 15px;
@@ -157,8 +158,8 @@ header #a:active {
   background-size: contain;
   position: relative;
   animation-name: seta;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -193,49 +194,66 @@ header #a:active {
 
 .bg-3 ul {
   width: 1350px;
-  height: 400px;
+  height: 450px;
   display: flex;
   justify-content: space-between;
-  background-color: red;
+  align-items: center;
+}
+.bg-3 p {
+  font-size: 12px;
+  color: #c0c0c0;
 }
 .div a {
   color: white;
+  background-color: #6421ff;
+  padding: 20px 24px;
+  width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 200ms ease-in-out;
+}
+.div a:hover {
+  background-color: #7828ff;
 }
 .bg-3 h1 {
   font-size: 40px;
+  padding-bottom: 20px;
+  font-weight: 600;
 }
 .bg-3 .div {
   display: flex;
-  height: 350px;
-  width: 300px;
+  height: 400px;
+  width: 310px;
   flex-direction: column;
   justify-content: center;
-  background-color: blue;
   align-items: center;
   text-align: center;
 }
 .bg-3 .div img {
-  width: 330px;
-  padding-bottom: 30px;
+  width: 300px;
+  padding: 10px 0 30px;
 }
 .bg-3 .div h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 .bg-3 .div p {
-  font-size: 19px;
+  font-size: 18px;
   color: #c0c0c0;
-  line-height: 26px;
+  line-height: 30px;
+  padding-bottom: 20px;
 }
 .bg-3 .mid-div {
   background-image: url(https://cnbl-cdn.bamgrid.com/assets/56773c66e02b16eb7603c803037f43e8572ea3a61574abd664f409a385a0b333/original);
-  background-position: center;
-  background-size: 380px;
-  width: 380px;
+  background-position: top;
+  background-size: 390px;
+  width: 390px;
   background-repeat: no-repeat;
-  background-color: orange;
-  height: 350px;
+  height: 440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -249,4 +267,75 @@ header #a:active {
 .bg-3 .mid-div img {
   width: 300px;
   padding-bottom: 30px;
+}
+.bg-4 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #040714;
+}
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1520px;
+}
+.bg-4 img {
+  width: 1020px;
+  height: 620px;
+  padding-right: 28px;
+}
+.text-4 {
+  text-align: start;
+  width: 960px;
+  height: 210px;
+}
+.text-4 h2 {
+  font-size: 38px;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 28px;
+}
+.text-4 p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #c0c0c0;
+  line-height: 30px;
+}
+.bg-5 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #040714;
+}
+.content-5 {
+  background-image: url(//cnbl-cdn.bamgrid.com/assets/36b498725697f2dad5b28c08358207cf7d86f6e81d5476c00d1f25f4178d4d6c/original);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1515px;
+  height: 100vh;
+}
+.text-5 {
+  width: 48%;
+  text-align: start;
+  padding-right: 15px;
+}
+.text-5 h3 {
+  color: white;
+  font-size: 25px;
+  padding-bottom: 23px;
+}
+.text-5 p {
+  color: #c0c0c0;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 27px;
 }
